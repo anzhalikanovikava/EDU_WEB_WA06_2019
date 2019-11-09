@@ -1,0 +1,129 @@
+body {
+    background-color: antiquewhite;
+    height: 100vh;
+}
+* {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.row {
+    width: 99%;
+    display: flex;
+}
+.section {
+    margin: 0.5%;
+    height: 100%;
+}
+
+@media screen and (min-device-width: 1080px) {
+
+    .section_01 {
+        height: 12%;
+        padding-bottom: 2%;
+    }
+
+    .section_02 {
+        height: 59%;
+        padding-bottom: 1%;
+    }
+
+    .section_03 {
+        height: 21%;
+    }
+
+    .one_third {
+        width: 33%;
+    }
+    .two_thirds {
+        width: 66%;
+    }
+    .section_green {
+        width: 99%;
+    }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 414px) {
+    .section_01 {
+        height: 64%;
+        position: fixed;
+        bottom: 0;
+        margin-bottom: 1%;
+    }
+    .section_02 {
+        height: 15%;
+        margin-bottom: 4%;
+    }
+    .section_03 {
+        height: 17%;
+        margin-bottom: 2%;
+    }
+    .section_orange, .section_maroon, .section_blue {
+        display: none;
+    }
+    .section {
+        width: 100%;
+    }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width : 1024px) {
+    .section_maroon {
+        display: none;
+    }
+    .section {
+        position: fixed;
+    }
+    .section_orange {
+        width: 34%;
+        height: 12%;
+        top: 0;
+        margin-left: 0;
+    }
+    .section_purple {
+        width: 64%;
+        height: 12%;
+        top: 0;
+        right: 0;
+    }
+    .section_red {
+        width: 99%;
+        height: 62%;
+        top: 14%;
+        margin: 0;
+    }
+    .section_green {
+        width: 49%;
+        height: 22%;
+        bottom: 0;
+        left: 0;
+    }
+    .section_blue {
+        width: 49%;
+        height: 22%;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+.section_red {
+    background-color: red;
+}
+
+.section_orange {
+    background-color: orange;
+}
+
+.section_green {
+    background-color: green;
+}
+
+.section_maroon {
+    background-color: maroon;
+}
+
+.section_blue {
+    background-color: blue;
+}
+
+.section_purple {
+    background-color: purple;
+}

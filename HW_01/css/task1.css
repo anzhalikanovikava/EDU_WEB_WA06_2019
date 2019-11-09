@@ -1,0 +1,48 @@
+body {
+    background-color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-content: center;
+    margin: auto;
+    width: 80%;
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+caption {
+    font-size: 150%;
+}
+
+th {
+    border: 1px solid saddlebrown;
+    padding: 5px;
+    background-color: burlywood;
+}
+
+td {
+    border: 1px solid saddlebrown;
+    padding: 5px;
+}
+tr:nth-child(even){
+    border: inherit;
+    background-color: rgba(250, 245, 218, 0.801);
+}
+tr:nth-child(odd){
+    border: inherit;
+    background-color: rgb(255, 247, 213);
+}
+tr:hover {
+    background-color: rgb(233, 226, 194);
+}
+
+.button_change{
+    text-align: center;
+}
+.button_delete {
+    text-align: center;
+}
+
+button:hover{
+    background-color: rgba(92, 0, 0, 0.534);
+}

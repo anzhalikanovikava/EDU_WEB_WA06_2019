@@ -1,0 +1,45 @@
+body {
+    padding-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+    display:inline-flex;
+    float: left;
+    position: absolute;
+}
+
+.div_red {
+    background-color: rgb(212, 57, 57);
+    margin: 0px;
+    z-index: 1;
+}
+
+.div_green {
+    background-color: rgb(65, 173, 65);
+    margin: 100px;
+    z-index: 3;
+}
+
+.div_blue {
+    background-color: cornflowerblue;
+    margin:200px;
+    margin-bottom: 0px;
+    z-index: 2;
+}
+
+.href_return {
+    position: absolute;
+    bottom:20px;
+    left: 20px;
+    
+
+}
