@@ -1,0 +1,5 @@
+The Class "Computer". Inherited classes: ultrabook, computing server. 
+Possible fields: number of processor cores, processor type, frequency, availability of Hyper-Threading technology, 
+architecture bit depth, manufacturer, graphics card, RAM size and type, hard disk size and type, manufacturer, etc.
+
+

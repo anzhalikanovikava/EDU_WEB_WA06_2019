@@ -1,0 +1,61 @@
+{
+	"type": "Collection",
+	"properties": {
+		"manufacturer": {
+			"name": "manufacturer",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "manufacturer",
+			"order": 0
+		},
+		"coreNumber": {
+			"name": "coreNumber",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "coreNumber",
+			"order": 1
+		},
+		"processorType": {
+			"name": "processorType",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "processorType",
+			"order": 2
+		},
+		"sizeRAM": {
+			"name": "sizeRAM",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "sizeRAM",
+			"order": 3
+		},
+		"typeRAM": {
+			"name": "typeRAM",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "typeRAM",
+			"order": 4
+		},
+		"hardDiskSize": {
+			"name": "hardDiskSize",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "hardDiskSize",
+			"order": 5
+		},
+		"hardDiskType": {
+			"name": "hardDiskType",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "hardDiskType",
+			"order": 6
+		}
+	}
+}
